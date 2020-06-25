@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="248dp"
+        android:layout_height="104dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/imagedetalhes" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tá ok !!!"
+        android:textColor="@android:color/background_light"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:text="
+        Biografia de Jair Bolsonaro
+Jair Bolsonaro (1955) é capitão da reserva do Exército e presidente eleito do Brasil. Filiado ao Partido Social Liberal (PSL), foi eleito o 38º presidente do Brasil, para o mandato de 2019 a 2022, com 55,13% dos votos.
+
+Jair Messias Bolsonaro nasceu em Campinas, São Paulo, no dia 21 de março de 1955. Filho de Perci Geraldo Bolsonaro e de Olinda Bonturi, ambos descendentes de famílias italianas.
+
+Foi aluno da Escola Preparatória de Cadetes do Exército, de Campinas. Em 1977, formou-se na Academia Militar das Agulhas Negras, em Resende, Rio de Janeiro.
+
+Cursou a Brigada de Paraquedismo do Rio de Janeiro. Em 1983, formou-se no curso de Educação Física do Exército. Chegou à patente de Capitão.
+
+Em 1986, ele liderou um protesto contra os baixos salários dos militares. Escreveu um artigo para uma revista de grande circulação no país, intitulado “O salário está baixo”.
+
+Carreira Política de Bolsonaro
+Em novembro de 1988, Jair Bolsonaro foi eleito para a Câmara Municipal do Rio de Janeiro pelo Partido Democrata Cristão (PDC).
+
+Em outubro de 1990, foi eleito deputado federal pelo PDC. Renunciou o mandato de vereador e tomou posse na Câmara dos Deputados em 1991.
+
+Em 1994, Jair foi reeleito e na sua candidatura, a sua plataforma de campanha incluía a luta pela melhoria salarial para os militares, o fim da estabilidade dos servidores, a defesa do controle da natalidade e a revisão da área dos índios ianomâmis.
+
+Foi mais uma vez indicado para a Comissão de Trabalho, Administração e Serviço Público da Câmara. Em 1995, filia-se ao Partido Progressista Brasileiro (PPB), resultado da fusão do PPR com o PP.
+
+Em 1998, exercendo seu terceiro mandato de deputado, se candidatou ao cargo para presidente da Comissão de Direitos Humanos da Câmara.
+
+Em 2018, Bolsonaro filiou-se ao Partido Social Liberal (PSL) e lançou-se candidato à Presidência da República. Fazendo sua campanha por meio das redes sociais, apostou em um discurso conservador dos costumes, de recuperação da economia e de combate à corrução e à violência urbana, mobilizou um grande número de admiradores.
+
+No primeiro turno das eleições, realizado em 7 de outubro, Bolsonaro ficou em primeiro lugar passando para o segundo turno quando derrotou o petista Fernando Haddad no dia 28 de outubro, com 55,13% dos votos. Essa vitória, interrompeu um ciclo de vitórias do PT que vinha desde 2002.
+
+No seu discurso da vitória, Jair Bolsonaro declarou que seu governo será um defensor da Constituição, da democracia e da liberdade. Bolsonaro se tornou um fenômeno eleitoral ao vencer as eleições, filiado a uma legenda sem grandes alianças, com pouco tempo de TV e rádio e longe das ruas depois do atentado que sofreu no dia 3 de setembro.
+
+"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.071" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
