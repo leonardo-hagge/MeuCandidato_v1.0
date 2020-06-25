@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageCenter"
+        android:layout_width="386dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="400dp"
+        android:clickable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.112"
+        app:srcCompat="@drawable/fotoum"
+        tools:srcCompat="@drawable/fotoum" />
+
+    <TextView
+        android:id="@+id/nameCand"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:clickable="true"
+        android:onClick="exibeAllInform"
+        android:text="Jair Messias Bolzonaro"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageTres"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <ImageView
+        android:id="@+id/imageDois"
+        android:layout_width="100dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="exibeImagem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageCenter"
+        app:layout_constraintVertical_bias="0.03"
+        app:srcCompat="@drawable/fotodois"
+        tools:srcCompat="@drawable/fotodois" />
+
+    <ImageView
+        android:id="@+id/imageTres"
+        android:layout_width="118dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:onClick="exibeImagem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageQuatro"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/imageDois"
+        app:layout_constraintTop_toBottomOf="@+id/imageCenter"
+        app:layout_constraintVertical_bias="0.003"
+        app:srcCompat="@drawable/fototres" />
+
+    <ImageView
+        android:id="@+id/imageQuatro"
+        android:layout_width="108dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="24dp"
+        android:onClick="exibeImagem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageCenter"
+        app:layout_constraintVertical_bias="0.003"
+        app:srcCompat="@drawable/fotoquatro"
+        tools:srcCompat="@drawable/fotoquatro" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="374dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:onClick="exibeAllInform"
+        android:text="Nascimento 21 de março de 1955 (65 anos) Glicério, SP
+        Nacionalidade brasileiro
+        Alma mater Academia Militar das Agulhas Negras
+        Cônjuge	Rogéria Nantes (c. 1978; div. 1997) Ana Cristina Valle (c. 1997; div. 2007) Michelle Bolsonaro (c. 2007)
+        Filhos	Flávio · Carlos · Eduardo · Renan · Laura Partido
+        Religião Católico romano Profissão
+        Militar e político"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameCand"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
